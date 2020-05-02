@@ -22,7 +22,7 @@ public class validateTitle extends base {
 	public void test2() throws IOException {
 		
 		LandingPage lp = new LandingPage(driver);
-		Assert.assertEquals(lp.getTitle().getText(),"FEATURED COURSES12");
+		Assert.assertEquals(lp.getTitle().getText(),"FEATURED COURSES");
 		System.out.println(lp.getTitle().getText());
 		
 	
